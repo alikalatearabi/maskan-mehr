@@ -1,0 +1,82 @@
+:root {
+  --theme-default: #6362e7;
+  --theme-secondary: #ffc500;
+}
+@import "utils/variables";
+// *** base ***
+@import "base/reset";
+@import "base/typography";
+//  *** components ***
+@import "components/according";
+@import "components/alert";
+@import "components/avatars";
+@import "components/badge";
+@import "components/bookmark";
+@import "components/breadcrumb";
+@import "components/buttons";
+@import "components/card";
+@import "components/dropdown";
+@import "components/form-input";
+@import "components/forms";
+@import "components/icons";
+@import "components/list";
+@import "components/loader";
+@import "components/popover";
+@import "components/print";
+@import "components/radio";
+@import "components/ribbon";
+@import "components/switch";
+@import "components/select2";
+@import "components/tab";
+@import "components/table";
+@import "components/touchspin";
+@import "components/typeahead-search";
+@import "components/scrollbar";
+@import "components/react-plugin";
+//	*** pages ***
+//@import "Pages/bookmark-app";
+//@import "Pages/cart";
+//@import "Pages/chart";
+//@import "Pages/chat";
+//@import "Pages/checkout";
+//@import "Pages/comingsoon";
+//@import "Pages/contacts";
+//@import "Pages/dashboard_2";
+//@import "Pages/dashboard_default";
+//@import "Pages/crypto-dashboard";
+//@import "Pages/ecommerce";
+//@import "Pages/email-application";
+//@import "Pages/errorpage";
+//@import "Pages/faq";
+//@import "Pages/file";
+//@import "Pages/gallery";
+//@import "Pages/job-search";
+//@import "Pages/kanban";
+//@import "Pages/knowledgebase";
+//@import "Pages/learning";
+//@import "Pages/login";
+//@import "Pages/megaoption";
+//@import "Pages/order-history";
+//@import "Pages/pricing";
+//@import "Pages/progress";
+//@import "Pages/projectlist";
+//@import "Pages/social-app";
+//@import "Pages/search";
+//@import "Pages/task";
+//@import "Pages/invoice";
+//@import "Pages/user-profile";
+//@import "Pages/steps";
+/* ---------------------
+	*** themes ***
+-----------------------*/
+@import "themes/_dark";
+@import "themes/theme-customizer";
+@import "themes/update";
+// *** layout ***
+@import "layout/footer";
+@import "layout/grid";
+@import "layout/header";
+@import "layout/navs";
+@import "layout/sidebar";
+@import "layout/rtl";
+@import "layout/box-layout";

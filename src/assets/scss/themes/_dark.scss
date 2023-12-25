@@ -985,6 +985,10 @@ body {
       &.horizontal-wrapper{
         .page-body-wrapper{
           .sidebar-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: column;
             .sidebar-main{
               .sidebar-links{
                 .sidebar-list{

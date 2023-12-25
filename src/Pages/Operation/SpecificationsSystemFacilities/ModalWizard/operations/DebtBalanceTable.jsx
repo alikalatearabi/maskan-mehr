@@ -1,4 +1,4 @@
-import { Row, Col, Table } from 'reactstrap';
+import {Row, Col, Table} from 'reactstrap';
 import React from 'react';
 import BoxLoader from "../../../../../Layout/Loader/box-loader";
 
@@ -19,15 +19,10 @@ const DebtBalanceTable = ({showData, isLoading}) => {
                         </tr>
                         </thead>
                         <tbody>
-                        {showData
-                            ?
-                            showData
-                            : isLoading ?
-                                ''
-                                :
-                                <tr key="1">
-                                    <td colSpan={5}>پرداختی وجود ندارد</td>
-                                </tr>
+                        {showData ? showData : isLoading ? '' :
+                            <tr key="1">
+                                <td colSpan={5}>پرداختی وجود ندارد</td>
+                            </tr>
                         }
                         </tbody>
                     </Table>

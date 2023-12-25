@@ -4,6 +4,7 @@ import {Card, CardBody, Col, Container, Row} from 'reactstrap';
 import SpecificationsSystemFacilitiesTable from "./Table";
 import SpecificationsSystemFacilitiesAccordion from "./Accordion";
 import {axiosHandler} from "../../../api/axios";
+import "primereact/resources/themes/lara-light-cyan/theme.css";
 
 const SpecificationsSystemFacilities = () => {
 
